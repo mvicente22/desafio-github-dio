@@ -22,4 +22,10 @@ Criar pasta de trabalho
  - git config --global user.name "digitar nome do usuario"
 *Usar o mesmo e-mail e usuario do cadastro no github
 
+git add -A [Adiciona a pasta ao controle de versao]
 
+git status [verifica o status dos arquivos]
+
+git commit -m "comentario" [Salva as alteracoes no controle de versao local]
+
+git push origin main [envia as alteracoes para o Github]
