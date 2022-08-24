@@ -1,0 +1,25 @@
+Baixar git
+Debian/Ubuntu -> apt install git
+
+Fedora/Rock Linux -> dnf install git
+
+Gerar chave Tokens  no CLI
+ - ssh-keygen -t ed25519 -C [e-mail]
+ - criar uma senha
+
+Copiar a chave publica (.pub) para o Git-hub
+ - No linux chave publica fica na pasta oculta no diretorio do usuario, pasta .ssh
+
+Inicializar o SSH-Agent
+ - eval $(ssh-agent -s)
+
+Adicionar chave privada no linux
+ - ssh-add [chave privada]
+
+Criar pasta de trabalho
+ - executar git init na pasta de trabalho
+ - git config --global user.email "digitar e-mail"
+ - git config --global user.name "digitar nome do usuario"
+*Usar o mesmo e-mail e usuario do cadastro no github
+
+
